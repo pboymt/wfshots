@@ -1,0 +1,63 @@
+list:
+  - id: splash-screen
+    name: splash-screen
+    rects: 
+      - id: menu
+        name: 菜单按钮
+    description: 启动画面
+  - id: scene-home
+    name: home
+    rects: 
+      - id: chapter
+        name: 关卡
+      - id: boss
+        name: 领主战
+      - id: event
+        name: 活动
+      - id: task
+        name: 任务
+      - id: mail
+        name: 邮件
+    description: 游戏主页
+  - id: ring-open
+    description: 打开铃铛列表
+  - id: ring
+    description: 主页发现铃铛
+  - id: scene-boss-levels
+    description: BOSS 关卡难度列表
+  - id: scene-boss-players-bonus
+    description: BOSS 关卡多人战斗奖励提示
+  - id: scene-boss-players
+    description: 选择 BOSS 关卡是否进行多人战斗
+  - id: scene-boss
+    description: BOSS 关卡列表
+  - id: scene-event
+    description: 活动列表
+  - id: scene-multiplayer-autos-disabled
+    description: 多人战斗等待界面续战和自动战斗按钮均关闭
+  - id: scene-multiplayer-autos-enabled
+    description: 多人战斗等待界面续战和自动战斗按钮均开启
+  - id: scene-multiplayer-ready-with-bonus
+    description: 多人战斗（队长）准备完毕，附带奖励的开始按钮
+  - id: scene-multiplayer-ready
+    description: 多人战斗（队长）准备完毕，开始按钮
+  - id: scene-multiplayer-dissolve
+    description: 多人战斗房间解散
+  - id: scene-multiplayer-playing
+    description: 多人战斗进行中，自动技能开启
+  - id: scene-multiplayer-playing-autoskill-disabled
+    description: 多人战斗进行中，自动技能关闭
+  - id: scene-multiplayer-ready-no
+    description: 多人战斗（队员）未准备
+  - id: scene-multiplayer-ready-yes
+    description: 多人战斗（队员）已准备
+  - id: scene-multiplayer-recruit-dialog-all-disabled
+    description: 多人战斗（队长）招募窗口，所有招募方式均关闭
+  - id: scene-multiplayer-recruit-dialog-all-enabled
+    description: 多人战斗（队长）招募窗口，所有招募方式均开启
+  - id: scene-multiplayer-room
+    description: 多人战斗房间
+  - id: scene-multiplayer-win
+    description: 多人战斗胜利结算（继续按钮）
+
+  
